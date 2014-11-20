@@ -66,7 +66,7 @@ function draw()
 	var backFill = context.createLinearGradient(0, this.padding, 0, this.padding + this.height);
 	backFill.addColorStop(0.55, this.primaryColor);
 	backFill.addColorStop(0.55, this.tertiaryColor);
-	backFill.addColorStop(1, this.secondaryColor + "transparent");
+	backFill.addColorStop(1, this.secondaryColor, "transparent");
 	context.fillStyle = backFill;
 	context.fill();
 
