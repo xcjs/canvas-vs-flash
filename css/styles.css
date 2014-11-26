@@ -87,7 +87,7 @@ ul.drawings li > a {
 }
 
 ul.drawings li object {
-	display: none;
+	visibility: hidden;
 }
 
 ul.drawings li a:hover, ul.drawings li a.active, ul.drawings li a:focus {
@@ -97,5 +97,5 @@ ul.drawings li a:hover, ul.drawings li a.active, ul.drawings li a:focus {
 }
 
 ul.drawings li:hover object, ul.drawings li a:focus + object   {
-	display: block;
+	visibility: visible;
 }
