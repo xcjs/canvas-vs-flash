@@ -86,16 +86,20 @@ ul.drawings li > a {
 	text-shadow: 0px 2px 2px rgba(150, 150, 150, 0.25);
 }
 
-ul.drawings li object {
+ul.drawings li > * {
 	visibility: hidden;
 }
 
-ul.drawings li a:hover, ul.drawings li a.active, ul.drawings li a:focus {
+ul.drawings li > a {
+	visibility: visible;
+}
+
+ul.drawings li a:hover, ul.drawings li a:focus {
 	-webkit-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.25);
 	box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.25);
 }
 
-ul.drawings li:hover object, ul.drawings li a:focus + object   {
+ul.drawings li:hover > *, ul.drawings li a:focus + * {
 	visibility: visible;
 }
