@@ -8,5 +8,5 @@ canvas and Flash drawing comparison.
 The original article can be found here:
 http://www.williammalone.com/articles/flash-vs-html5-canvas-drawing/
 
-This repository mostly functions as a personal references, but I also hope that
+This repository mostly functions as a personal reference, but I also hope that
 is encourages people to move away from Flash as a web development platform.
