@@ -10,3 +10,5 @@ http://www.williammalone.com/articles/flash-vs-html5-canvas-drawing/
 
 This repository mostly functions as a personal reference, but I also hope that
 is encourages people to move away from Flash as a web development platform.
+
+A GitHub pages branch can be viewed online at http://xcjs.github.io/canvas-vs-flash/
