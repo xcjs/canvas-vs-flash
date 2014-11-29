@@ -55,10 +55,12 @@ div.wrapper {
 }
 
 ul.drawings {	
-	display: block;
+	display: table;
 	list-style-position: outside;
 	list-style-type: none;
 	position: relative;	
+	table-layout: fixed;
+	width: 267px;
 }
 
 ul.drawings li {
@@ -66,7 +68,6 @@ ul.drawings li {
 	display: table-cell;
 	overflow: visible;
 	min-width: 1%;
-	table-layout: fixed;
 }
 
 ul.drawings li a {
