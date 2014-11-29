@@ -40,7 +40,7 @@ p {
 }
 
 canvas, object {
-	background: #fff url(img/tile.png) repeat scroll left top;
+	background: transparent url(img/tile.png) repeat scroll left top;
 	display: block;
 }
 
